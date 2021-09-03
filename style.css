@@ -97,21 +97,27 @@ html {
     padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
-  
   .btn:hover {
     background-color: #D2B4DE ;
   }
   i {
     padding: 20px;
   }
- nav img {
-  display: flex;
-   height: 30px;
-   position: absolute;
-  text-align: left;
-  margin: 40px 0 0 10px;
- 
+  span.num {
+    position: absolute;
+    background:#9356DC;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    width: 20px; 
+    margin: 40px 0 0 10px;
   }
+ 
   .main {
    height: 1300px;
    background-color: #F4F6F7;
@@ -130,7 +136,7 @@ html {
   .main-1 img {
     margin-top: 80px;
   }
- .card, .card-1, .card-2, .card-3 /*reusable css*/{ 
+ .card, .card-1, .card-2, .card-3 { 
    margin: 0 0 40px 30px;
    height: 60px;
    width: 318px;
@@ -146,33 +152,44 @@ html {
    position: absolute;
    margin-left: 250px;
   }
-  .main i:hover.main i {
-    color: rgb(131,58,180);
-    display: inline;
+  .fa-heart:hover {
+    color: #9356DC;
   }
-  .card img {
-height: 20px;
-width: 30px;
-margin-left: 250px;
-  }
+
   main h3 {
    margin-left: 20px;
   }
   main p {
    margin: 20px 0 0 20px;
    font-family: roboto thin;
+   line-height: 0.9;
   }
   .footer {
    height: 200px;
    margin-top: 100px;
    background-color: rgb(61, 61, 68);
    color: white;
+   font-weight: bolder;
+   font-size: 14px;
   }
   .footer h4 {
-   padding: 50px 0 0 30px;
+   padding: 50px 0 0 50px;
    line-height: 30px;
   }
   .footer h3 {
     font-size: 20px;
     font-style:  italic;
   }
+  .fa-heart {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .fa-utensils {
+    margin: 40px 0 0 0;
+  }
+  .fa-hands-helping {
+    margin: 70px 0 0 0;
+  }
+  
+  
