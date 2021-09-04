@@ -20,17 +20,16 @@ html {
       align-content: center;
       margin: 20px 0 0 60px;
     }
-   .menu_img img { 
+   .section img { 
        margin-top: 10px;
        height: 350px;
        width: 375px;
    }
    .menu_option {
-       display: flex;
        background-color: #F4F6F7;
-       height: 1200px;
+       height: 1500px;
        width: 375px;
-       border-radius: 70px;
+       border-radius: 70px 70px 0 0 ;
    }
    h1 {
      margin: 30px 0 0 30px;
@@ -41,11 +40,67 @@ html {
    h1 i {
        margin-left: 150px;
    }
-   h2 {
-      position: absolute;
-      margin: 120px 0 0 30px;
+    .menu_option h2 {
+      margin: 50px 0 0 30px;
    }
-    .btn_entrees {
-      position: absolute;
-      margin-top: 100px;
+    
+   .btn {
+     margin: 30px 0 20px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 18px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 70px;
+    width: 340px;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .btn P {
+    padding: 10px 0 0 15px;
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .order_btn {
+    margin: 50px 0 20px 80px;
+    background: linear-gradient(13deg, rgba(131,58,180,1) 0%, rgba(235,8,224,1) 100%);
+    border: none;
+    border-radius: 55px;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    height: 70px;
+    width: 200px;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .order_btn P {
+    padding: 20px 0 0 60px;
+  }
+   .footer {
+    height: 200px;
+    margin-top: 80px;
+    background-color: rgb(61, 61, 68);
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+   }
+   .footer h3 {
+     font-size: 22px;
+     font-style: italic;
+     padding: 20px 0 0 20px;
+   }
+   .fa-utensils {
+     margin-left: 20px;
+     padding-right: 20px;
+
+   }
+   .fa-hands-helping {
+     margin-left: 20px;
+     padding: 10px 10px 0 0;
+   }
+   .footer p {
+     padding-left: 20px;
+     font-family: roboto thin;
    }
