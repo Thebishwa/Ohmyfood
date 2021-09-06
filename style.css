@@ -64,7 +64,6 @@ html {
   }
   .button {
     background: rgb(131,58,180);
-    background: linear-gradient(13deg, rgba(131,58,180,1) 0%, rgba(235,8,224,1) 100%);
     border-radius:50px;
     color: white;
     padding: 18px 30px 18px 30px;
@@ -75,6 +74,12 @@ html {
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
+  .button {
+    background-color: rgb(131,58,180);
+}
+.button:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+}
   nav {
     margin: 20px;
     width: 328px;
@@ -152,10 +157,26 @@ html {
    position: absolute;
    margin-left: 250px;
   }
-  .fa-heart:hover {
-    color: #9356DC;
-  }
-  
+  .heart {
+
+    position: relative;
+    display: flex;
+    margin: 0px;
+}
+.heart .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.heart:hover .img-top {
+    display: inline;
+    color: #ce69db
+}
+.heart:hover {
+  color: #9356DC;
+}
 
   main h3 {
    margin-left: 20px;
