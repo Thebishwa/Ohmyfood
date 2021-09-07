@@ -63,7 +63,8 @@ html {
     line-height: 0.1;
   }
   .button {
-    background: rgb(131,58,180);
+
+    background: linear-gradient(185deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
     border-radius:50px;
     color: white;
     padding: 18px 30px 18px 30px;
