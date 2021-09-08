@@ -20,6 +20,10 @@ html {
       align-content: center;
       margin: 20px 0 0 60px;
     }
+    header i {
+      position: absolute;
+      margin: 35px 0 0 20px;
+    }
    .section img { 
        margin-top: 10px;
        height: 350px;
@@ -40,6 +44,10 @@ html {
      font-weight: bolder;
      font-size: 30px;
    }  
+   h2 {
+    font-size: 17px;
+    opacity: 55%;
+  }
    h1 i {
        margin-left: 150px;
    }
@@ -62,11 +70,11 @@ html {
   .btn P {
     padding: 20px 0 0 15px;
     font-family: 'roboto';
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bolder;
   }
   h4 {
-    margin-left: 20px;
+    margin-left: 15px;
     font-family: roboto thin;
     line-height: 0%;
   }
@@ -82,8 +90,8 @@ html {
     font-size: 22px;
     color: white;
     cursor: pointer;
-    height: 70px;
-    width: 200px;
+    height: 55px;
+    width: 190px;
     text-align: left;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }

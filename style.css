@@ -104,7 +104,10 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
   .btn:hover {
-    background-color: #D2B4DE ;
+    background: rgb(255,121,218);
+    background: linear-gradient(185deg, rgba(255,121,218,0.645077720207254) 0%, rgba(147,86,220,0.35492227979274615) 100%);
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+  
   }
   i {
     padding: 20px;
@@ -141,6 +144,19 @@ html {
   }
   .main-1 img {
     margin-top: 80px;
+  }
+  .new p {
+    bottom: 120px;
+    margin-top: -30px;
+    position: relative;
+    width: 20px;
+    height: 10px;
+    margin-left: 280px;
+    background-color: rgb(103, 204, 148);
+    color: rgb(16, 77, 53);
+    padding: 5px 15Px 5px 15px;
+    font-size: 12px;
+    font-weight: bold;
   }
  .card, .card-1, .card-2, .card-3 { 
    margin: 0 0 40px 30px;
