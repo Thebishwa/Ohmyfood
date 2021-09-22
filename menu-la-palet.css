@@ -8,6 +8,7 @@ html {
     font-family: 'Roboto';
     align-content: center;
   }
+  
     body {
       margin: 0px;
       padding: 0px;
@@ -122,4 +123,90 @@ html {
    .footer p {
      padding-left: 20px;
      font-family: roboto thin;
+   }
+
+
+
+
+   /*ipad view */
+  @media (min-width: 768px) {
+
+      .header {
+         padding-left: 30%;
+       }
+       .title {
+         padding-left: 30%;
+       }
+       .title i {
+         margin-left: 40%;
+       }
+       .section img {
+         width: 100%;
+       }
+       .menu_option {
+         width: 100%;
+         height: 1200px;
+         padding-left: 0;
+         margin-left: 0;
+       }
+       .grid-container {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 50px 50px; /*Make the grid smaller than the container*/
+        background-color: #F4F6F7;
+      }
+        .order_btn {
+        margin: 100px 0 0  45%;
+      }
+        .footer {
+        padding-left: 45%;
+       }
+       .main_section {
+  
+       margin: 15px 0 0 -350px;
+      }
+      .footer {
+        height: 400px;
+      }
+  }
+  
+  
+  
+/*desktop view */
+   @media (min-width: 992px) {
+     .header {
+       padding-left: 40%;
+     }
+     .title {
+       padding-left: 40%;
+     }
+     .title i {
+       margin-left: 60%;
+     }
+     .section img {
+       width: 100%;
+     }
+     .menu_option {
+       width: 100%;
+       height: 800px;
+     }
+     .main_section {
+       margin-left: 10px;
+     }
+     .grid-container {
+      height: 300px;
+      width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+    background-color: #F4F6F7;
+    padding: 40px 0 20px 0;
+    }
+    .order_btn {
+      margin: 100px 0 0  45%;
+    }
+    .footer {
+      padding-left: 45%;
+    }
    }

@@ -9,13 +9,75 @@ html {
   overflow-x: hidden;
   box-sizing: border-box;
   }
+  
   body {
     margin: 0px;
   padding: 0px;
     box-sizing: border-box;
    overflow-x: hidden;
+   background-size: cover;
+   overflow-x: hidden;
+   overflow-y: auto;
+  }
+
+  .wrap {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
 
   }
+  
+  .wave {
+    width: 5px;
+    height: 100px;
+    background: linear-gradient(185deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+    margin: 10px;
+    animation: wave 1s linear infinite;
+    border-radius: 20px;
+    
+  }
+  .wave:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  .wave:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+  .wave:nth-child(4) {
+    animation-delay: 0.3s;
+  }
+  .wave:nth-child(5) {
+    animation-delay: 0.4s;
+  }
+  .wave:nth-child(6) {
+    animation-delay: 0.5s;
+  }
+  .wave:nth-child(7) {
+    animation-delay: 0.6s;
+  }
+  .wave:nth-child(8) {
+    animation-delay: 0.7s;
+  }
+  .wave:nth-child(9) {
+    animation-delay: 0.8s;
+  }
+  .wave:nth-child(10) {
+    animation-delay: 0.9s;
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+   
   header {
     align-content: center;
     margin: 20px 0 0 25%;
