@@ -26,9 +26,8 @@ html {
     justify-content: center;
     align-items: center;
     background: #000;
-
   }
-  
+ 
   .wave {
     width: 5px;
     height: 100px;
@@ -36,7 +35,8 @@ html {
     margin: 10px;
     animation: wave 1s linear infinite;
     border-radius: 20px;
-    
+    -o-animation-delay: 3s;
+    animation
   }
   .wave:nth-child(2) {
     animation-delay: 0.1s;
@@ -75,7 +75,9 @@ html {
     }
     100% {
       transform: scale(0);
+
     }
+
   }
    
   header {
