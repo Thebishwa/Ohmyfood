@@ -477,5 +477,19 @@ html {
   margin-left: 40%;
   }
   .wrap {
-    margin-top: -150vh;  
+  margin-top: -150vh;  
+}
+.footer {
+  height: 200px;
+ }
+ .footer_note {
+   position: absolute;
+   margin-left: 50px;
+ }
+ .footer_contact {
+   margin-left: 250px;
+ }
+  h3 {
+    margin-left: 70px;
+  }
 }
