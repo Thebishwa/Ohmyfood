@@ -45,6 +45,12 @@ h1 {
 h2 {
   font-size: 17px;
   opacity: 55%;
+  border: 3px solid rgb(41, 180, 127);
+  border-image: linear-gradient(to right, rgb(110, 224, 167) 12%, #f4f6f7 10%) 10% 1;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-width: 50%;
 }
 .title i {
   position: absolute;
@@ -56,14 +62,14 @@ h2 {
 }
 
 .btn, .btn_L {
-  margin: 10px 0 0 20px;
+  margin: 10px 0 0 15px;
   background-color: white;
   border: none;
   border-radius: 18px;
   font-size: 16px;
   cursor: pointer;
   height: 80px;
-  width: 340px;
+  width: 350px;
   text-align: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -165,7 +171,7 @@ P {
     padding-left: 30%;
   }
   .title i {
-    margin-left: 10%;
+    margin-left: 60%;
   }
   .section img {
     width: 100%;
@@ -184,29 +190,27 @@ P {
   .main_section {
     margin: 15px 0 0 -350px;
   }
-  .Desserts_section {
-   
+  .Desserts_secton {
     margin-top: -60px;
   }
-  
   .order_btn {
     margin: 0px 0 80px 40%;
   }
-  
    .footer {
     padding-left: 40%;
-    
     margin-top: -20px;
     }
    .footer_contact {
+  
+     margin-top: 30px;
      display: flex;
      font-family: roboto thin;
-     font-size: 15px;
+     font-size: 18px;
    }
    .footer_contact h6 {
-     margin-top: 18px;
-    padding-right: 30px;
-    font-size: 15px;
+     font-size: 18px;
+     margin-top: 0;
+     margin-right: 60px;
    }
    .footer_note, .footer_note h4 {
      font-family: roboto medium;
@@ -219,8 +223,6 @@ P {
    .footer_note h4 {
      margin: -10px 20px 0 0;
    }
-
-
    .footer p {
     width: 50px;
     }
@@ -256,6 +258,9 @@ P {
   .entriees_section h2 {
     margin-bottom: -10px;
   }
+  .Desserts_secton {
+    margin-top: 7px;
+  }
  
   .grid-container {
     height: 300px;
@@ -267,7 +272,7 @@ P {
     padding: 40px 0 20px 0;
   }
   .order_btn {
-    margin: 100px 0 80px 45%;
+    margin: 100px 0 80px 43%;
   }
   .footer {
     height: 200px;
@@ -277,41 +282,26 @@ P {
     margin-top: -20px;
   }
   .footer_note h4 {
+    margin-right: 60px;
     font-family: roboto medium;
     display: inline-block;
   }
   .footer_contact {
-    margin-top: -50px;
-    margin-left: 220px;
+    margin: -7px 0 0 180px;
+
     font-family: roboto thin;
   }
   .footer_contact h6 {
+    margin: 0 0 0 100px;
+   
     position: absolute;
-    margin-left: -60px;
-    margin-top: 15px;
+   
+
     font-size: 14px;
   }
 }
 
 /*side slide menu */
-
-.btn:hover:after {
-  right: 3px;
-}
-.button:hover i {
-  color: #f4f6f7;
-  opacity: 1;
-  position: relative;
-  top: -70%;
-  left: 75%;
-  z-index: 150;
-  transform: rotate(360deg);
-}
-.button i {
-  padding-left: 20px;
-  transition: transform 0.7s ease-in-out;
-  opacity: 0;
-}
 
 .slider {
   margin-left: 3.5px;
@@ -324,11 +314,11 @@ P {
 	right: 0;
   top: -77.5px;
 	background-color: rgb(90, 218, 186);
-	border-radius: 0 1.5rem 1.5rem 0;
-	width: 0;
+	border-radius: 0 18px 18px 0;
+	width: 0px;
 	height: 80px;
 	overflow: hidden;
-	transition: 0.3s linear;
+	transition: 0.5s linear;
 }
 
 .tick {
@@ -349,9 +339,34 @@ P {
   right: 0;
   width: 0;
   height: 100%;
-  transition: .5s ease;
+  transition: 0.3s ease;
 }
  .btn:hover .iteam-price {
    left: 70%;
- 
  }
+ .btn:hover .slider {
+   left: 80%;
+   right: 0;
+   transition: 0.3s ease;
+ }
+ .btn h5 {
+   position: absolute;
+   margin: -32px 0 0 220px;
+   font-family: roboto thin;
+   font-size: 16px;
+ }
+ .btn:hover h5 {
+   opacity: 0;
+   transition: 0.5s;
+  }
+  .iteam-price p {
+    opacity: 0;
+    position: absolute;
+    margin: -20px 0 0 -40px;
+  }
+  .btn:hover .iteam-price p {
+    opacity: 1;
+    transition: 0.5s ease-out;
+  }
+
+
