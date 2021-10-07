@@ -61,7 +61,7 @@ h2 {
   margin: 40px 0 0 30px;
 }
 
-.btn, .btn_L {
+.btn {
   margin: 10px 0 0 15px;
   background-color: white;
   border: none;
@@ -92,9 +92,10 @@ h2 {
   font-size: 17px;
   font-weight: bolder;
 }
-.btn_L P {
-  padding: 10px 0 0 15px;
-  line-height: 10px;
+.btn h6 {
+  margin-bottom: -8px;
+  font-size: 16px;
+  padding: 5px 0 0 10px;
 }
 h4 {
   margin-left: 15px;
@@ -156,7 +157,7 @@ P {
   margin-left: 10px;
   font-family: roboto thin;
 }
-.footer_contact h6 {
+.footer_contact h4 {
   font-size: 14px;
   font-family: roboto thin;
 }
@@ -188,10 +189,18 @@ P {
     background-color: #f4f6f7;
   }
   .main_section {
-    margin: 15px 0 0 -350px;
+    margin: 0 0 0 -350px;
   }
+  .main_section h2 {
+    margin-bottom: -5px;
+  }
+  .entriees_section {
+  width: 400px;
+  }
+    
   .Desserts_secton {
     margin-top: -60px;
+    width: 400px;
   }
   .order_btn {
     margin: 0px 0 80px 40%;
@@ -201,13 +210,12 @@ P {
     margin-top: -20px;
     }
    .footer_contact {
-  
      margin-top: 30px;
      display: flex;
      font-family: roboto thin;
-     font-size: 18px;
+     font-size: 16px;
    }
-   .footer_contact h6 {
+   .footer_contact h4 {
      font-size: 18px;
      margin-top: 0;
      margin-right: 60px;
@@ -229,6 +237,10 @@ P {
    .fa-utensils {
     margin: 10px 10px 0 0;
     }
+    .footer_contact h6 {
+      margin: 0 20px 0 0;
+      font-size: 16px;
+    }
 }
 
 /*desktop view */
@@ -242,8 +254,6 @@ P {
   .title i {
     position: absolute;
     margin: 10px 0 0 55%;
-
-  
   }
   .section img {
     width: 100%;
@@ -253,7 +263,10 @@ P {
     height: 800px;
   }
   .main_section {
-    margin: 5px 0 0 10px;
+    margin: 10px 0 0  10px;
+  }
+  .main_section h6 {
+    margin: 0;
   }
   .entriees_section h2 {
     margin-bottom: -10px;
@@ -261,7 +274,14 @@ P {
   .Desserts_secton {
     margin-top: 7px;
   }
- 
+  .Desserts_secton h6 {
+    margin: 0;
+  }
+  .btn h6 {
+    padding-left: 15px;
+    margin-bottom: -8px;
+  }
+  
   .grid-container {
     height: 300px;
     width: 100%;
@@ -288,16 +308,12 @@ P {
   }
   .footer_contact {
     margin: -7px 0 0 180px;
-
     font-family: roboto thin;
   }
-  .footer_contact h6 {
+  .footer_contact h4 {
     margin: 0 0 0 100px;
-   
     position: absolute;
-   
-
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -354,6 +370,7 @@ P {
    margin: -32px 0 0 220px;
    font-family: roboto thin;
    font-size: 16px;
+   transition: 0.5s ease;
  }
  .btn:hover h5 {
    opacity: 0;
@@ -366,7 +383,18 @@ P {
   }
   .btn:hover .iteam-price p {
     opacity: 1;
-    transition: 0.5s ease-out;
+    transition: 0.5s ease-in;
   }
+  .btn_L:hover .iteam-price {
+    left: 70%;
+    
+  }
+  .btn_L:hover .slider {
+    left: 80%;
+   right: 0;
+   transition: 0.5s ease;
+  }
+  
+  
 
 
