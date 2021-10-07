@@ -93,16 +93,18 @@ html {
   }
   .display-info i {
     padding-top: 20px;
-    margin: 0 20px 0 25%;
+  
 
   }
   .display-info {
-    height: 60px;
+    height: 70px;
     margin-bottom:350px;
     background-image: linear-gradient(#BDC3C7, #E5E7E9 15%);
   }
   .display-info h1 {
+    display: inline-block;
     font-size: 16px;
+    margin-left: 100px;
   }
   .section {
     margin-top: 20px;
@@ -318,16 +320,20 @@ html {
   {
     .header {
      margin-left: 40%;
-     
-    }
-    .section h1 {
-      text-align: center;
     }
     section br {
       display: none;
     }
+    .section {
+      text-align: center;
+      margin-top: 
+    }
     .button {
-     margin-left: 40%;
+    margin: 0;
+    }
+    .section h1 {
+      margin-left: -200px;
+      padding-left: 0;
     }
     .nav {
       margin-left: 30%;
@@ -404,22 +410,11 @@ html {
 /*desktop view */
 
 @media (min-width: 992px) {
- .display-info h1 {
-   margin-left: 20%;
- }
- .display-info i {
-   margin-left: 25%;
- }
- .display-info {
-   margin-bottom: 280px;
- }
+
  .nav {
    width: 100%;
    height: 100%;
  }
-  .section h1 {
-    width: 45%;
-  }
   .section h2 {
     width: 90%;
   }
@@ -484,10 +479,6 @@ html {
    position: absolute;
    margin-top: -50px;
   left: 30%;
-
-  }
-  .display-info h1 {
-  margin-left: 22%;
   }
   .container_nav {
   margin-left: 12%;
@@ -495,9 +486,10 @@ html {
   .nav h1 {
   margin-left: 35%;
   }
-  .button {
-  margin-left: 40%;
+  .section h1, .button {
+    margin-left: -200px;
   }
+ 
   .wrap {
   margin-top: -150vh;  
 }
