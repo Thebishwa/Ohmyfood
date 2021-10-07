@@ -121,9 +121,9 @@ html {
   }
   .section h2 {
     font-family: Roboto Thin;
-    font-weight: strong;
+    font-weight: bolder;
     font-size: 18px;
-    line-height: none;
+    line-height: 0;
     text-align: center;
   }
   .section h3 {
@@ -201,7 +201,7 @@ html {
 
   .grid-container h2 {
     margin-left: 30px;
-    font-family: 'roboto' Bold;
+    font-family: roboto Bold;
     font-size: 22px;
   }
   .new p {
