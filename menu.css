@@ -105,13 +105,13 @@ P {
   line-height: 15px;
 }
 .order_btn {
+  padding-bottom: 15px;
   margin: 50px 0 20px 80px;
   background: linear-gradient(
     185deg,
     rgba(255, 121, 218, 1) 0%,
     rgba(147, 86, 220, 1) 100%
   );
-
   border: none;
   border-radius: 55px;
   font-size: 22px;
@@ -396,7 +396,23 @@ P {
    right: 0;
    transition: 0.5s ease;
   }
-  
-  
+
+  /*.........................*/
+  /*fading animation for menu*/
+
+  .fade-in-menu_entriees {
+    animation: fadeIn 4s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  .fade-in-menu_main {
+    animation: fadeIn 8s;
+  }
+  .fade-in-menu_desserts {
+    animation: fadeIn 12s;
+  }
+
 
 
