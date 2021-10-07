@@ -1,2 +1,2 @@
 # project-3
-integrate mobile applicaton
+website url : https://thebishwa.github.io/project-3-ohmyfood/index.html
