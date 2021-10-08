@@ -284,8 +284,9 @@ html {
   }
  
   .footer h3 {
+    font-family: shrikhand bold;
    padding-top: 20px;
-    font-size: 20px;
+    font-size: 25px;
     font-style:  italic;
     margin-bottom: 5px;
   }
