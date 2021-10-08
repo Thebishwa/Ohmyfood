@@ -159,11 +159,27 @@ P {
   margin-left: 10px;
   font-family: roboto thin;
 }
+.footer_contact h6 {
+  margin-left: 0;
+}
 .footer_contact h4 {
   font-size: 14px;
   font-family: roboto thin;
+  margin-left: 0;
 }
-
+.footer_contact a:link {
+  color: white;
+  text-decoration: none;
+}
+.footer_contact a:visited {
+color: white;
+}
+.footer_contact a:hover {
+color: white;
+}
+.footer_contact a:active {
+color: white;
+}
 
 /*ipad view */
 @media (min-width: 768px) {
