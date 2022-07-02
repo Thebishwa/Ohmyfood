@@ -1,0 +1,215 @@
+  
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: 'Roboto';
+    align-content: center;
+  }
+    body {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      align-content: center;
+    }
+   
+    .header img {
+      height: 40px;
+      align-content: center;
+      margin: 20px 0 0 60px;
+    }
+    header i {
+      position: absolute;
+      margin: 35px 0 0 20px;
+    }
+   .section img { 
+       margin-top: 10px;
+       height: 350px;
+       width: 375px;
+   }
+   .menu_option {
+       background-color: #F4F6F7;
+       height: 1500px;
+       width: 375px;
+       border-radius: 50px 50px 0 0 ;
+       position: absolute;
+       margin-top: -70px;
+
+   }
+   h1 {
+     margin: 30px 0 0 30px;
+     font-style: italic;
+     font-weight: bolder;
+     font-size: 30px;
+   }  
+   h2 {
+    font-size: 17px;
+    opacity: 55%;
+  }
+   h1 i {
+       margin-left: 10px;
+   }
+    .menu_option h2 {
+      margin: 50px 0 0 30px;
+   }
+   h4 {
+    margin-left: 15px;
+    font-family: roboto thin;
+    line-height: 0%;
+  }
+  P {
+    line-height: 15px;
+  }
+    
+   .btn, .btn_L {
+     margin: 10px 0 0 20px;
+    background-color: white;
+    border: none;
+    border-radius: 18px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 80px;
+    width: 340px;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .btn_L {
+    height: 100px;
+  }
+  .btn_L p {
+    padding: 15px 0 0 15px;
+    font-family: 'roboto';
+    font-size: 17px;
+    font-weight: bolder;
+    line-height: 12px;
+  }
+  .btn P {
+    padding: 20px 0 0 15px;
+    font-family: 'roboto';
+    font-size: 17px;
+    font-weight: bolder;
+  }
+  .order_btn {
+    margin: 50px 0 20px 80px;
+    background: linear-gradient(185deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+    border: none;
+    border-radius: 55px;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    height: 55px;
+    width: 190px;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .order_btn P {
+    padding: 20px 0 0 60px;
+  }
+   .footer {
+    height: 200px;
+    margin-top: 80px;
+    background-color: rgb(61, 61, 68);
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+   }
+   .footer h3 {
+     font-size: 22px;
+     font-style: italic;
+     padding: 20px 0 0 20px;
+   }
+   .fa-utensils {
+     margin-left: 20px;
+     padding-right: 20px;
+
+   }
+   .fa-hands-helping {
+     margin-left: 20px;
+     padding: 10px 10px 0 0;
+   }
+   .footer p {
+     padding-left: 20px;
+     font-family: roboto thin;
+   }
+
+   /*ipad view */
+  @media (min-width: 768px) {
+
+      .header {
+         padding-left: 30%;
+       }
+       .title {
+         padding-left: 30%;
+       }
+       .title i {
+         margin-left: 10%;
+       }
+       .section img {
+         width: 100%;
+       }
+       .menu_option {
+         width: 100%;
+         height: 1200px;
+       }
+       .grid-container {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns:50px 50px ; /*Make the grid smaller than the container*/
+        background-color: #F4F6F7;
+      }
+       .main_section {
+        margin: 15px 0  0 -350px;
+      }
+        .order_btn {
+        margin: 100px 0 0  45%;
+      }
+        .footer {
+        padding-left: 45%;
+       }
+
+      .footer {
+        height: 100%;
+      }
+  }
+
+   
+/*desktop view */
+@media (min-width: 992px) {
+  .header {
+    padding-left: 40%;
+  }
+  .title {
+    padding-left: 40%;
+  }
+  .title i {
+    margin-left: 60%;
+  }
+  .section img {
+    width: 100%;
+  }
+  .menu_option {
+    width: 100%;
+    height: 800px;
+  }
+  .main_section {
+    margin-left: 10px;
+  }
+  .grid-container {
+   height: 300px;
+   width: 100%;
+ display: inline-flex;
+ justify-content: space-evenly;
+ grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+ background-color: #F4F6F7;
+ padding: 40px 0 20px 0;
+ }
+ .order_btn {
+   margin: 100px 0 0  45%;
+ }
+ .footer {
+   padding-left: 45%;
+ }
+}
